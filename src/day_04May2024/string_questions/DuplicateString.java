@@ -1,4 +1,4 @@
-package day_04May2024;
+package day_04May2024.string_questions;
 
 import java.util.Scanner;
 
