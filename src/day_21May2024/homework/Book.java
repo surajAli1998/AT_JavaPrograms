@@ -1,4 +1,4 @@
-package day_21May2024.abstraction;
+package day_21May2024.homework;
 
 public abstract class Book {
     String name;
