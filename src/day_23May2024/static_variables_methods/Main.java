@@ -35,7 +35,6 @@ public class Main {
 //      we have to invoke non static greet method by creating an object of Main class because its non static.
 //      Hence creating an obj of class Main and then accessing greet()
         Main m = new Main();
-        m.greet();
         m.fun();
     }
 
