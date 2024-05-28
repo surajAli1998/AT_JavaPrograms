@@ -20,7 +20,7 @@ public class Main {
         /**
          * In below case no object is created. Only m2 reference is pointing to null. In such cases we cant access
          * non static methods or variables using m2, beacuse there no actual object created to access those.
-         * But we can access stating method like invoke via m2, as the statuc elements are already loaded when the
+         * But we can access stating method like invoke via m2, as the static elements are already loaded when the
          * class is loaded.
          */
         Main m2 = null;

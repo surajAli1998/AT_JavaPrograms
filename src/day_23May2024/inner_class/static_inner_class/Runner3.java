@@ -17,7 +17,7 @@ class OuterClass1{
         void display(){
             System.out.println(x);
 
-            // as the inner class is static we cannot access outer class not static elements
+            // as the inner class is static we cannot access outer class non static elements
 //            System.out.println(y);
         }
     }
