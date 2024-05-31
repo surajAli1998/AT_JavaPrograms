@@ -45,6 +45,8 @@ public class ArrayListClass {
 
         Iterator it1 = ls.iterator();
         while (it1.hasNext()){
+            // in case of iterator we cannot add alything to list while iterating, it will give concurrent exception
+//            ls.add(5);
             System.out.println(it1.next());
         }
 
