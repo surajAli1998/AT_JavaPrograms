@@ -1,5 +1,9 @@
 package day_01June2024.homework;
 
+/**
+ * To find the strings which are repeated and to print those only
+ */
+
 import java.util.*;
 
 public class StringFrequency {
