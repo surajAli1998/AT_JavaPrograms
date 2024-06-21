@@ -7,6 +7,9 @@ public class ThisVsSuper {
 //        System.out.println(c1.topSpeed);
         c1.display();
         c1.superDisplay();
+
+        Vehicle c2 = new Car();
+        c2.display();
     }
 }
 
@@ -22,8 +25,8 @@ class Car extends Vehicle{
     void display(){
         System.out.println("This is Car class");
         System.out.println("Max speed of this car is: "+this.topSpeed);
-//        super.display();
-//        System.out.println("Max speed of vehicle is: "+super.topSpeed);
+        super.display();
+        System.out.println("Max speed of vehicle is: "+super.topSpeed);
     }
 
     void superDisplay(){

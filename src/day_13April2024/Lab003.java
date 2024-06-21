@@ -11,7 +11,7 @@ public class Lab003 {
         System.out.println("Number 1 = "+num1);
 
         // we cant declare or initialize multiple variables of diff data types in a single statement
-        //int a  = 23, float b = 3.45f;
+//        int a  = 23, float b = 3.45f;
 
         // we can assign same value to multiple variables of same data type in a single statement.
         int a, b, c = 23;

@@ -27,4 +27,5 @@ class Dog {
         this.color = color;
         System.out.println("Constructor with 3 parameters");
     }
+
 }

@@ -13,9 +13,9 @@ constructor or any other type of constructors in child class.
 
 public class SuperWithConstructer {
     public static void main(String[] args) {
-//        Student st1 = new Student();
+        Student st1 = new Student();
         Student st2 = new Student(70);
-//        Student st3 = new Student(60);
+        Student st3 = new Student(60);
 
         Student st4 = new Student(st2);
     }
@@ -25,7 +25,6 @@ public class SuperWithConstructer {
 class Person {
     String name;
     int height;
-
 
     // default constructor
     Person(){
@@ -52,7 +51,7 @@ class Student extends Person {
 
     //default constructor
     Student(){
-        //super();
+//        super();
         System.out.println("Child class DC");
     }
 
@@ -69,6 +68,8 @@ class Student extends Person {
         this.weight = student.weight;
         System.out.println("child");
         System.out.println(super.name+" has height "+super.height+" and weight "+this.weight);
+        System.out.println(this.name);
+        System.out.println(this.height);
     }
 
 }
